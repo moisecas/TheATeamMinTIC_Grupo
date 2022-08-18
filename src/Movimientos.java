@@ -63,6 +63,6 @@ public class Movimientos {
     empresa.setDireccion("Calle 2");
     empresa.setTelefono("987654321");
     empresa.setNit("987654321");
-
+    System.out.println("Nombre: " + empresa.getNombre(), "Direccion: " + empresa.getDireccion(), "Telefono: " + empresa.getTelefono(), "Nit: " + empresa.getNit());
 
 }
